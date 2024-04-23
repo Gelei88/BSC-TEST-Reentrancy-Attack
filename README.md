@@ -6,13 +6,13 @@ ___________________________________________________
 
 ___________________________________________________
 
-#####建议在文本中创建虚拟环境，在虚拟环境中安装brownie :kissing_closed_eyes:
+##### 建议在文本中创建虚拟环境，在虚拟环境中安装brownie :kissing_closed_eyes:
 `pip install eth-brownie`
 
 
-#####添加钱包的作为账户（需要两个）
+##### 添加钱包的作为账户（需要两个）
 `brownie accounts new xxx`
 
 
-#####先执行bank_deploy.py获取合约地址作为参数传入bank_attack.py再执行
-#####遇到问题请留言 :kissing_closed_eyes:
+##### 先执行bank_deploy.py获取合约地址作为参数传入bank_attack.py再执行
+##### 遇到问题请留言 :kissing_closed_eyes:
