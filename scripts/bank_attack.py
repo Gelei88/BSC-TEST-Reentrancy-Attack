@@ -23,7 +23,7 @@ def withdraw_bank(bank_attack):
 
 def main():
     # 部署合约
-    bank_address = "0x3154D2393884EFf10A8434cB7795340d607A0B9F"
+    bank_address = "0x3154D2393884EFf10A8434cB7795340d607A0B9F" #这里填入你在bank——deploy.py部署后得到的合约地址
     bank_attack = deploy_bank_Attack(bank_address)
     # 存款
     withdraw_bank(bank_attack)
